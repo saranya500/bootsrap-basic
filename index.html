@@ -14,65 +14,127 @@
 </head>
 <body>
     
+  <!---movies website---using bootstrap5-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand fw-bold" href="#">Movies Bazaar</a>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#movie-card">Movies</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Watchlist</a>
+        </li>
+
+<!---search bar with button-->
+
+
+<form class="d-flex">
+  <input class="form-control me-2" type="search" placeholder="Search movies" aria-label="Search">
+  <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+      
+ </nav>
+
+ <div class="container-fluid">
+  
+  <div class="row">
+
+ 
+  <div class="col-10 bg-dark">
+
+<!---main design later---->
+
+  
     
-    <nav class="navbar navbar-expand-lg bg-info" data-bs-theme="dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">SARANYA T</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              
-
-                <!---m margin
-                me start(left) me-auto
-                ms end (right)  ms-auto--->
-               
-                <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link"<a href="https://github.com/saranya500">Github</a>
-                 </li>
-              </ul>
-            
-          </div>
-        </div>
-      </nav>
-
-
-       <div class="p-3 bg-secondary">
-            <h1>Web Developer<span class="badge bg-warning text-dark">day-11</span></h1>
-            <p class="p-3">Im eagerly wait for working with team meanwhile I learned  newthings in day to day.  ,We will be learning alot about bootstrap.learn this on cyberdude channel.</p>
-        <!----cards example----->
-
+<img src="https://images.hdqwalls.com/download/movie-wall-e-ad-3840x2160.jpg" class="img-fluid">
+         
+     
       </div>
-      <div class="m-5 bg-dark">
-      <div class="card border-dark">
+      
         
-        <div class="card-body bg-info">
-          <h5 class="card-title">Rajini the boss</h5>
-          <h6 class="card-subtitle text-muted">Some movies</h6>
-          <p class="card-text"> example text to build on the card title and make up the bulk of the card's content</p>
-            
-          <a href="#" class="btn btn-primary">watch movie</a>
-        </div>
+          <div class="col-2 bg-dark">
+        <!---menus icons-->
+        
+        
+        
+        <p class="text-light fw-bold">Genre</p>
+        <p class="text-muted">Action</p>
+        <p class="text-muted">Horor</p>
+        <p class="text-muted">Comedy</p>
+        <p class="text-muted">Adventure</p>
+        <p class="text-muted">Action</p>
+        <p class="text-muted">More...</p>
+        <p class="text-light fw-bold">Language</p>
+        <p class="text-muted">English</p>
+        <p class="text-muted">Tamil</p>
+        <p class="text-muted">Hindi</p>
+        <p class="text-muted">Telugu</p>
+        <p class="text-muted">Marathi</p>
+        <p class="text-muted">Punjabi</p>
+        <p class="text-muted">More...</p>
+        
+        
+        
+          
+          </div>
+ 
+      
+      
+  </div>
+ </div>
+ </div>
+ <section class="movies" id="movie-card">
+ <div class="container-fluid bg-dark">
+
+  <div class="row">
+
+    <div class="col-2">
+<!---cards-->
+
+<div class="card" style="width: 12rem;">
+  <img src="https://tse3.mm.bing.net/th?id=OIP.eEGSRlD7F0nlOHsr808W5AAAAA&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+  
+</div> </div>
+  <div class="col-2">
+  <div class="card" style="width: 12rem;">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.lAmZVI37ERJhAkZXpBU7IwHaJ4&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+    </div>
+  </div>
+
+
+<div class="col-2">
+    <div class="card" style="width: 10rem;">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.vkNJePM-yYz3gFYCKn35jAHaLH&pid=Api&P=0&h=180" class="card-img-top" alt="...">
       </div>
     </div>
-          
-      
-      
+    <div class="col-2">
+    <div class="card" style="width: 10rem;">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.8H21dP1wQS1jM3iLsmYTaAHaK-&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+      </div>
+    </div>
 
+    <div class="col-2">
+      <div class="card" style="width: 10rem;">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.a2qRxT93IvsTsaVYCqn1VAHaKQ&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+        </div>
+      </div>
+        
+      <div class="col-2">
+        <div class="card" style="width: 10rem;">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.I1d32kam5FfNIWXbOY_EEwAAAA&pid=Api&P=0&h=180" class="card-img-top" alt="...">
+            </div></div>
+    
 
-<!----bootsrap js link---->
-
+            
+            
+  </div>
+  </div>
+</section>
+  
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>

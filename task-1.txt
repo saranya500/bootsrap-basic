@@ -1,0 +1,10 @@
+task1-30/12/2023
+
+
+concept evaluate in bootsrap -5
+must includes:
+
+navbar
+home/animations/horror/romance
+click each link its redirected to concern movie imdb 
+its click the  home link  its will display one heading and paragraph and then list out the movies.
